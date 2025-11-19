@@ -199,9 +199,10 @@ def read_text_from_file(file_path):
 
 # Главная функция
 if __name__ == "__main__":
-    text = read_text_from_file("G:/Учеба/Магистратура/1 семестр/Нейросеть/Text.txt")
+    text = read_text_from_file("G:/yobkcalbmid/Text.txt")
     if text:
         language_detected = predict_language(text)
         print(f"Определённый язык: {language_detected}")
     else:
         print("Не удалось прочитать файл.")
+
